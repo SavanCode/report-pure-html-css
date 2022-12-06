@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="script.js"></script>
+</head>
+
+<body> 
+  <main>
+    <div class="econsec-report">
+      <div class="header econsec-report__header"> 
+        <div class="display-block text-center">
+          <h2 class="text-bold">地盘进度月报表</h2>
+          <h5 class="text-bold">（2022年7月份）</h5>
+        </div>
+      </div>
+
+      <div id="section" class="econsec-report__section mb-10 full-width display-block">
+        <div class='display-space-between'>
+          <div class="display-table-cell text-left ">地盤代碼：
+            <span class="text-underline">GJX</span>
+
+          </div>
+          <div class="display-table-cell text-right ">報告編號: <span class="text-underline">GJX-03</span></div>
+        </div>
+      </div>
+      <div id="section" class="econsec-report__section mb-10 full-width display-block">
+        <div class='display-space-between'>
+          <div class="display-table-cell text-left ">項目名稱： <span class="text-underline">九龍啟德6576地段4B區一號地盤住宅</span></div>
+          <div class="display-table-cell text-right ">填報日期: <span class="text-underline">27/07/2022</span></div>
+        </div>
+      </div>
+
+      <!-- 第一部分 table -->
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+        <tbody>
+          <tr class="tr-subtitles text-bold">
+            <td colspan="12">第一部分 - 合約基本信息:</td>
+          </tr>
+          <tr>
+            <td>合約開工日期</td>
+            <td>07/07/2022</td>
+            <td>合約完工日期</td>
+            <td colspan="2">
+              <div> 1）06/07/2023 (for sdfsdfsa) </div>
+              <div> 2）06/07/2023 (for sdfsdfsa) </div>
+            </td>
+            <td>合約工期</td>
+            <td>730天</td>
+          </tr>
+          <tr>
+            <td>合約類型</td>
+            <td colspan="11">私人房屋工程</td>
+          </tr>
+          <tr>
+            <td colspan="12">合约里程碑</td>
+          </tr>
+          <tr>
+            <td colspan="12">
+              <div> 1. 合約完成工期 XXXXXXXX</div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="12">項目基本資料</td>
+          </tr>
+          <tr>
+            <td colspan="12">合約金額: <span>1235864億港元</span></td>
+          </tr>
+          <tr>
+            <td>地盤面積: </td>
+            <td colspan="3"> 123456 </td>
+            <td>總建築樓面面積CFA: </td>
+            <td colspan="3"> 231235 </td>
+          </tr>
+          <tr>
+            <td colspan="12">地盤簡介:
+              <div>地盤簡介 地盤簡介 地盤簡介</div>
+            </td>
+        </tbody>
+      </table>
+      </br>
+
+      <!-- 第二部分 table -->
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+        <tbody>
+          <tr class="tr-subtitles text-bold">
+            <td colspan="12">第二部分 - 合約工期:</td>
+          </tr>
+          <tr>
+            <td colspan="2">工程分段<div>(section)</div>
+            </td>
+            <td colspan="2">已申請延伸日期 </td>
+            <td colspan="2">已批延伸日期</td>
+            <td colspan="2">
+              已批延伸後完工日期
+            </td>
+            <td colspan="2">
+              預算實際完工日期
+            </td>
+            <td colspan="2">
+              快+/慢-
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">{SiteCode+SiteName}</td>
+            <td colspan="2">{appliedEOT}</td>
+            <td colspan="2">{approvalEOTdays}</td>
+            <td colspan="2">{A=FinishDate+approvalEOTdays}</td>
+            <td colspan="2">{B=estimteEndTime}</td>
+            <td colspan="2">{A-B}</td>
+          </tr>
+        </tbody>
+      </table>
+      </br>
+
+      <!-- 第三部分 table -->
+      <!-- 进度类数据中的项目验收节点数据 -->
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+        <tbody>
+          <tr class="tr-subtitles text-bold">
+            <td colspan="12">第三部分 - 關鍵里程碑日期（Milestone Date）:</td>
+          </tr>
+          <tr>
+            <td colspan="3"> </td>
+            <td colspan="2">進度計劃（R1） </td>
+            <td colspan="2">最新預計</td>
+            <td colspan="2"> 實際發生 </td>
+            <td colspan="2"> 快+/慢- （天）</td>
+          </tr>
+          <tr>
+            <td colspan="3"> </td>
+            <td colspan="2">（A）</td>
+            <td colspan="2">（B）</td>
+            <td colspan="2">
+              （C）
+            </td>
+            <td colspan="2">
+              (B) = (A) - (C)
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">XXXXXXXX</td>
+            <td colspan="2">XXXXXXXX</td>
+            <td colspan="2">XXXXXXXX</td>
+            <td colspan="2">XXXXXXXX</td>
+            <td colspan="2">XXXXXXXX</td>
+          </tr>
+          <tr>
+            <td colspan="2">XXXXXXXX</td>
+            <td colspan="2">XXXXXXXX</td>
+            <td colspan="2">XXXXXXXX</td>
+            <td colspan="2">XXXXXXXX</td>
+            <td colspan="2">XXXXXXXX</td>
+          </tr>
+        </tbody>
+      </table>
+      </br>
+
+
+      <!-- 第四部分 table -->
+      <!-- 进度类数据中的主要进度情况描述（不确定数据字典名称） -->
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+        <tbody>
+          <tr class="tr-subtitles text-bold">
+            <td colspan="12">第四部分 - 現時進度簡況:</td>
+          </tr>
+          <tr>
+            <td colspan="12">进度类数据中的主要进度情况描述（不确定数据字典名称）</td>
+          </tr>
+        </tbody>
+      </table>
+      </br>
+
+
+      <!-- 第五部分 table -->
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+        <tbody>
+          <tr class="tr-subtitles text-bold">
+            <td colspan="12">第五部分 - 人力資源配置:</td>
+          </tr>
+          <tr>
+            <td colspan="3">地盤管理人員</td>
+            <td colspan="3">{currentTotalNum}（計劃{estimatedPeakTime}）</td>
+            <td colspan="3">日薪人數</td>
+            <!-- 手動填寫 -->
+            <td colspan="3"> &nbsp; &nbsp;（計劃 &nbsp; 人）</td>
+          </tr>
+        </tbody>
+      </table>
+      </br>
+
+
+      <!-- 第六部分 table -->
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+        <tbody>
+          <tr class="tr-subtitles text-bold">
+            <td colspan="12">第六部分 - 質安環綜合管理情況:</td>
+          </tr>
+          <tr>
+            <td colspan="3">地盤開工總人數</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">平均每日開工人數</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+          <tr>
+            <td colspan="3">工傷意外</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">累計單數</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+
+          <tr>
+            <td colspan="3">安全檢控</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">累計單數</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+
+          <tr>
+            <td colspan="3">環保檢控</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">累計單數</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+
+          <tr>
+            <td colspan="3">食環檢控</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">累計單數</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+          <tr>
+            <td colspan="3">質量事故</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">累計單數</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+          <tr>
+            <td colspan="3">累計千人意外率</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">十萬工時意外率</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+        </tbody>
+      </table>
+      </br>
+
+
+      <!-- 第七部分 table -->
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+        <tbody>
+          <tr class="tr-subtitles text-bold">
+            <td colspan="12">第七部分 - 財務狀態 - 每月應收糧單:</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="2">IP 證書日期</td>
+            <td colspan="4">應收糧款</td>
+            <td colspan="4">實收糧款</td>
+            <td rowspan="2" colspan="2">快+/慢- （天）</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="no-border-left">日期</td>
+            <td colspan="2">金額</td>
+            <td colspan="2">日期</td>
+            <td colspan="2">金額</td>
+          </tr>
+          <!-- 下面填充內容 -->
+          <tr>
+            <td colspan="2">XXXX</td>
+            <td colspan="2">XXXX</td>
+            <td colspan="2">XXXX</td>
+            <td colspan="2">XXXX</td>
+            <td colspan="2">XXXX</td>
+            <td colspan="2">XXXX</td>
+          </tr>
+          <tr>
+            <td colspan="2">XXXX</td>
+            <td colspan="2">XXXX</td>
+            <td colspan="2">XXXX</td>
+            <td colspan="2">XXXX</td>
+            <td colspan="2">XXXX</td>
+            <td colspan="2">XXXX</td>
+          </tr>
+        </tbody>
+      </table>
+      </br>
+
+      <!-- 第八部分 table -->
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+        <tbody>
+          <tr class="tr-subtitles text-bold">
+            <td colspan="12">第八部分 - 存在主要風險以及應對措施:</td>
+          </tr>
+          <tr>
+            <td colspan="12">
+              <div>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+              <div>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </br>
+
+      <!-- 第九部分 table -->
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+        <tbody>
+          <tr class="tr-subtitles text-bold">
+            <td colspan="12">第八部分 - 存在主要風險以及應對措施:</td>
+          </tr>
+          <tr>
+            <td colspan="12">
+              <div>
+                <img src="https://kryogenix.org/images/css-jagged-kitten.jpg" alt="a lovely kitten">
+              </div>
+          </tr>
+          <tr>
+            <td colspan="12" class="text-center"> 實景圖</td>
+          </tr>
+          <tr>
+            <td colspan="12">
+              <div>
+                <img src="https://kryogenix.org/images/css-jagged-kitten.jpg" alt="a lovely kitten">
+              </div>
+          </tr>
+          <tr>
+            <td colspan="12" class="text-center"> 設計圖</td>
+          </tr>
+        </tbody>
+      </table>
+      </br>
+
+      <!-- 第十部分 table -->
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+        <tbody>
+          <tr class="tr-subtitles text-bold">
+            <td colspan="12">第十部分 - 項目主要聯絡人資料:</td>
+          </tr>
+          <tr>
+            <td colspan="3"> </td>
+            <td colspan="3">公司名稱</td>
+            <td colspan="3">項目負責人</td>
+            <td colspan="3">項目經理</td>
+          </tr>
+          <tr>
+            <td colspan="3">業主</td>
+            <td colspan="3">XXXXX</td>
+            <td colspan="3">XXXXX</td>
+            <td colspan="3">XXXXX</td>
+
+          </tr>
+
+          <tr>
+            <td colspan="3">則師</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+
+          <tr>
+            <td colspan="3">結構顧問</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+          <tr>
+            <td colspan="3">機電顧問</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+          <tr>
+            <td colspan="3">工程測量顧問</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">XXXX</td>
+            <td colspan="3">XXXXX</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="econsec-report__table report-table text-sans" cellspacing="0">
+      <tbody> 
+        <tr>
+          <td colspan="1"> 職位</td>
+          <td colspan="1">工程主管</td>
+          <td colspan="2">高級地盤經理</td>
+          <td colspan="2">副地盤經理</td>
+          <td colspan="2">高級項目經理</td>
+          <td colspan="2">合約經理</td>
+          <td colspan="2">安環部經理</td>
+        </tr> 
+        <tr>
+        <td colspan="1">負責人</td>
+        <td colspan="1">XXXXX</td>
+        <td colspan="2">XXXXX</td>
+        <td colspan="2">XXXXX</td>
+        <td colspan="2">XXXXX</td>
+        <td colspan="2">XXXXX</td>
+        <td colspan="2">XXXXX</td>
+      </tr> 
+      <tr>
+      <td colspan="1"> 電話</td>
+      <td colspan="1">XXXXX</td>
+      <td colspan="2">XXXXX</td>
+      <td colspan="2">XXXXX</td>
+      <td colspan="2">XXXXX</td>
+      <td colspan="2">XXXXX</td>
+      <td colspan="2">XXXXX</td>
+    </tr> 
+      </tbody>
+    </table>
+      </br>
+    </div>
+
+
+  </main>
+</body>
+
+</html>
